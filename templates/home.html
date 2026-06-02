@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+{% endblock css %}
+
+
+
+{% block title %}
+    Home Page
+{% endblock %}
+
+{% block content %}
+    <h1>Home Page</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit cum, tempore placeat aliquid dolore nobis eum neque quas commodi, illum nisi aut atque accusantium impedit? Nobis ad aspernatur perspiciatis quis.</p>
+{% endblock content %}
+
+{% block js %}
+    <script src="{% static 'js/home.js' %}"></script>
+{% endblock js %}
