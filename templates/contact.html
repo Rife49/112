@@ -1,15 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Me</title>
-</head>
-<body>
-    <div>
-        <h1>Contact Me</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus dolor consectetur doloremque deleniti vero nostrum velit minima, voluptas est voluptatibus numquam corrupti incidunt esse omnis tempore ipsam suscipit iure harum.</p>
-    </div>
+{% extends 'base.html' %}
+
+{% block title %}
     
-</body>
-</html>
+{% endblock %}
+
+{% block content %}
+    <h1>Contact us</h1>
+    <div>
+        <span><strong>Name:</strong>{{name}}</span><br/>
+        <span><strong>Address:</strong>{{address}}</span><br/>
+        <span><strong>Email:</strong>{{email}}</span><br/>
+    </div>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora cumque tenetur ut? Possimus eos officia eius qui consequuntur temporibus, exercitationem similique excepturi neque vitae nihil magni odit! Doloremque, vitae temporibus?</p>
+{% endblock %}

@@ -19,7 +19,11 @@
 
 6. Create the django project structure
 
-    - Both OS: django-admin startproject NAME_FOLDER .
+    - Both OS: django-admin startproject NAME_FOLDER.
+
+7. Create a django app:
+    - Both OS: python3 manage.py startapp NAME_OF_THE_APP
+    - To run server its python3 manage.py runserver
 
 # Extra
     - **touch** : this command alloqs is to create a file from the MAc OS terminal (touch FILENAME.EXTENSION)
